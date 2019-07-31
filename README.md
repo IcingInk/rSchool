@@ -74,11 +74,13 @@ View(fbi_data)
 3. ak <- mutate() :  Adds the column 'address' where the data is  'city + state 'United States' (concatenated)
 
 ```
-
 library(dplyr) ( https://dplyr.tidyverse.org/ -AND- https://blog.exploratory.io/filter-data-with-dplyr-76cf5f1a258e )
-ak <- filter(fbi_data, State == "Alaska") ## Filter på kolumnen 'State'
+ak <- filter(fbi_data, State == "Alaska") # Filtrerar på kolumnen 'State'
 ak <- mutate(ak, address = paste(City,State, "United States")) # skapar den kolumnen i datasettet
 
 ```
+
+
+
 
  
