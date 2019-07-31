@@ -6,6 +6,10 @@
 The first goal is to understand the lefalet-library
 
 ***
+datasets are from kaggle.com
+1. https://www.kaggle.com/murderaccountability/homicide-reports
+
+***
 # from youtube - Greg Sward.
 https://www.youtube.com/watch?v=wUE71sTs1dE&list=PLmrGRg8An3QG5pZ5_sTzWyjqGTRsPJfSf&index=7
 
@@ -21,6 +25,7 @@ m <- leaflet() %>%
     setView(lng = -149.4937, lat = 64.2008, zoom = 4)
 m
 ```
+
 ## adding a basemap with a theme 
 
 ```
@@ -38,3 +43,5 @@ m
 
 more themese are found here <p>
  https://leaflet-extras.github.io/leaflet-providers/preview/ 
+    
+ 
