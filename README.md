@@ -3,6 +3,10 @@
 2. RStudio version 1.2.1335
 
 ***
+## resources
+1. https://r4ds.had.co.nz/
+
+***
 The first goal is to understand the lefalet-library
 
 ***
