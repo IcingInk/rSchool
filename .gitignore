@@ -34,3 +34,9 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+# csv-file is to big
+*.csv
+
+# don't push the unique google api key for ggmap ....
+*.api
